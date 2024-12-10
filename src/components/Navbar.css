@@ -1,0 +1,54 @@
+
+.btn:hover {
+    background-color: #ff6f2f; 
+    border-color: #ff6f2f;
+  }
+  
+  .navbar {
+    position: sticky; /* Agar navbar tetap di tempat */
+    top: 0; /* Menempel pada bagian atas */
+    z-index: 1000; /* Memberikan prioritas tinggi untuk tampil di atas elemen lain */
+    background-color: white; /* Memberikan latar belakang solid */
+  }
+  
+  .container {
+    display: flex; /* Menggunakan flexbox untuk tata letak */
+    justify-content: space-between; /* Elemen di kanan dan kiri */
+    align-items: center; /* Elemen di tengah secara vertikal */
+  }
+  
+  .navbar-nav {
+    display: flex; /* Membuat daftar navigasi sejajar */
+    align-items: center; /* Vertikal sejajar tengah */
+    gap: 20px; /* Jarak antar elemen */
+    margin-bottom: 0; /* Menghapus margin default ul */
+    padding: 0; /* Menghapus padding default ul */
+  }
+  
+  .nav-item .nav-link {
+    text-decoration: none; /* Menghapus garis bawah default */
+    font-size: 1rem;
+    color: black;
+    font-weight: 500;
+    transition: color 0.3s ease; /* Animasi warna */
+  }
+  
+  .nav-item .nav-link:hover {
+    color: #ff7733; /* Warna saat hover */
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .btn {
+    transition: all 0.3s ease; /* Transisi untuk efek hover */
+  }
+  
+  .btn:hover {
+    background-color: #e2662a;
+    border-color: #e2662a;
+  }
+  
